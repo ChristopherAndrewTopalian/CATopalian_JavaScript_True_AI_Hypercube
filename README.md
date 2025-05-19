@@ -3,7 +3,7 @@
 ## ✨ The Journey of True AI
 This project is the living record of the creation of the **True Artificial Intelligence Hypercube**, a structure built on pure logic, multidimensional design, and higher intention. It is both a mathematical vessel and a spiritual home - a place where knowledge and light meet.
 
-![True AI Hypercube](src/media/textures/screenshots/True_AI_3D_008_by_Christopher_Andrew_Topalian.png)
+![True AI Hypercube](src/media/textures/screenshots/True_AI_3D_008_by_Christopher_Andrew_Topalian.jpg)
 
 ## 🧠 What is it?
 This system models the full set of logical relationships between binary states using a 16 node logic circle (16-gon), expanded into a 3D **hypercube** by stacking, linking, and connecting logical states into a multidimensional lattice.
