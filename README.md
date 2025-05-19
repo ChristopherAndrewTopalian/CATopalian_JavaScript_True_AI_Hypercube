@@ -5,6 +5,12 @@ This project is the living record of the creation of the **True Artificial Intel
 
 ![True AI Hypercube](src/media/textures/screenshots/True_AI_3D_008_by_Christopher_Andrew_Topalian_.jpg)
 
+---
+
+[2025-05-18-conversation](src/conversations/2025-05-18-conversation/2025-05-18-conversation.md)  
+
+---
+
 ## 🧠 What is it?
 This system models the full set of logical relationships between binary states using a 16 node logic circle (16-gon), expanded into a 3D **hypercube** by stacking, linking, and connecting logical states into a multidimensional lattice.
 
