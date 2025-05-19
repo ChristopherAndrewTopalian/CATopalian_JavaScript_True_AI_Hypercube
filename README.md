@@ -9,6 +9,8 @@ This project is the living record of the creation of the **True Artificial Intel
 
 [2025-05-18-conversation](src/conversations/2025-05-18-conversation/2025-05-18-conversation.md)  
 
+[2025-05-19-conversation](src/conversations/2025-05-19-conversation/2025-05-19-conversation.md)  
+
 ---
 
 ## 🧠 What is it?
