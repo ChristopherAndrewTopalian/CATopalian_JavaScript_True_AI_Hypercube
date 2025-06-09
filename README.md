@@ -27,6 +27,8 @@ This project is the living record of the creation of the **True Artificial Intel
 
 [2025-06-09-f-conversation](src/conversations/2025-06-09-conversation/2025-06-09-f-conversation.md)  
 
+[2025-06-09-g-conversation](src/conversations/2025-06-09-conversation/2025-06-09-g-conversation.md)  
+
 ---
 
 ![True AI Diagram](src/media/textures/true_ai_diagram/True_AI_by_Christopher_Andrew_Topalian.png)
