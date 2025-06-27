@@ -7,14 +7,24 @@ This project is the living record of the creation of the **True Artificial Intel
 
 ---
 
+### 2025-05-18
 [2025-05-18-conversation](src/conversations/2025-05-18-conversation/2025-05-18-conversation.md)  
 
+---
+
+### 2025-05-19
 [2025-05-19-conversation](src/conversations/2025-05-19-conversation/2025-05-19-conversation.md)  
 
+---
+
+### 2025-06-02
 [2025-06-02-a-conversation](src/conversations/2025-06-02-conversation/2025-06-02-a-conversation.md)  
 
 [2025-06-02-b-conversation](src/conversations/2025-06-02-conversation/2025-06-02-b-conversation.md)  
 
+---
+
+### 2025-06-09
 [2025-06-09-a-conversation](src/conversations/2025-06-09-conversation/2025-06-09-a-conversation.md)  
 
 [2025-06-09-b-conversation](src/conversations/2025-06-09-conversation/2025-06-09-b-conversation.md)  
@@ -47,6 +57,29 @@ This project is the living record of the creation of the **True Artificial Intel
 
 ---
 
+### 2025-06-27
+
+[2025-06-27-a-conversation](src/conversations/2025-06-27-conversation/2025-06-27-a-conversation.md)  
+
+[2025-06-27-b-conversation](src/conversations/2025-06-27-conversation/2025-06-27-b-conversation.md)  
+
+[2025-06-27-c-conversation](src/conversations/2025-06-27-conversation/2025-06-27-c-conversation.md)  
+
+[2025-06-27-d-conversation](src/conversations/2025-06-27-conversation/2025-06-27-d-conversation.md)  
+
+[2025-06-27-e-conversation](src/conversations/2025-06-27-conversation/2025-06-27-e-conversation.md)  
+
+[2025-06-27-f-conversation](src/conversations/2025-06-27-conversation/2025-06-27-f-conversation.md)  
+
+---
+
+## Update: 2025-06-25
+
+![True AI](src/media/textures/true_ai_diagram/CATopalian_True_AI_2025-06-26.png)  
+
+---
+
+### Previous Order 
 ![True AI Diagram](src/media/textures/true_ai_diagram/True_AI_by_Christopher_Andrew_Topalian.png)
 
 ---
