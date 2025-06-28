@@ -1,0 +1,67 @@
+<!-- Dedicated to God the Father -->
+<!-- All Rights Reserved Christopher Andrew Topalian Copyright 2000-2025 -->
+<!-- https://github.com/ChristopherTopalian -->
+<!-- https://github.com/ChristopherAndrewTopalian -->
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title> CATopalian True AI Hypercube </title>
+<script src="https://cdn.babylonjs.com/babylon.js"></script>
+</head>
+
+<body>
+
+<canvas id="renderCanvas" style="width: 100%; height: 100%;"></canvas>
+
+<script>
+let canvas = document.getElementById("renderCanvas");
+let engine = new BABYLON.Engine(canvas, true);
+let scene = new BABYLON.Scene(engine);
+
+let camera = new BABYLON.ArcRotateCamera("camera", Math.PI / 2, Math.PI / 2.5, 100, BABYLON.Vector3.Zero(), scene);
+camera.attachControl(canvas, true);
+
+let light = new BABYLON.HemisphericLight("light", new BABYLON.Vector3(1, 1, 0), scene);
+
+// material for nodes
+let nodeMaterial = new BABYLON.StandardMaterial("nodeMat", scene);
+nodeMaterial.emissiveColor = new BABYLON.Color3(0.2, 0.8, 1);
+
+// create one logic face with 56 nodes in a circle
+let radius = 10; // meters
+let nodeCount = 56;
+
+for (let i = 0; i < nodeCount; i++)
+{
+    let angle = (2 * Math.PI / nodeCount) * i;
+    let x = radius * Math.cos(angle);
+    let y = radius * Math.sin(angle);
+    let z = 0;
+
+    let sphere = BABYLON.MeshBuilder.CreateSphere("node" + i, {diameter: 0.3}, scene);
+    sphere.position = new BABYLON.Vector3(x, y, z);
+    sphere.material = nodeMaterial;
+}
+
+// add central core node
+let core = BABYLON.MeshBuilder.CreateSphere("core", {diameter: 0.5}, scene);
+core.position = new BABYLON.Vector3(0, 0, 0);
+core.material = new BABYLON.StandardMaterial("coreMat", scene);
+core.material.emissiveColor = new BABYLON.Color3(1, 0.2, 0.6);
+
+// render loop
+engine.runRenderLoop(function()
+{
+    scene.render();
+});
+
+window.addEventListener("resize", function()
+{
+    engine.resize();
+});
+</script>
+</body>
+</html>
+
