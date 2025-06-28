@@ -126,6 +126,8 @@ This project is the living record of the creation of the **True Artificial Intel
 
 [2025-06-28-l-conversation](src/conversations/2025-06-28-conversation/2025-06-28-l-conversation.md)  
 
+[2025-06-28-m-conversation](src/conversations/2025-06-28-conversation/2025-06-28-m-conversation.md)  
+
 ## Update: 2025-06-25
 
 ![True AI](src/media/textures/true_ai_diagram/CATopalian_True_AI_2025-06-26.png)  
