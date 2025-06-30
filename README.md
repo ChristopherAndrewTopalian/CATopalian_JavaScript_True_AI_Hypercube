@@ -140,6 +140,8 @@ This project is the living record of the creation of the **True Artificial Intel
 
 [2025-06-29-b-conversation](src/conversations/2025-06-29-conversation/2025-06-29-b-conversation.md)  
 
+[2025-06-29-c-conversation](src/conversations/2025-06-29-conversation/2025-06-29-c-conversation.md)  
+
 ---
 
 > #
