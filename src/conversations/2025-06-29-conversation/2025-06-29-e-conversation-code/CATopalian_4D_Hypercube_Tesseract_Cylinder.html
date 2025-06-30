@@ -1,0 +1,108 @@
+<!-- Dedicated to God the Father -->
+<!-- All Rights Reserved Christopher Andrew Topalian Copyright 2000-2025 -->
+<!-- https://github.com/ChristopherTopalian -->
+<!-- https://github.com/ChristopherAndrewTopalian -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title> CATopalian 4D Hypercube Tesseract Cylinder </title>
+    <script src="https://cdn.babylonjs.com/babylon.js"></script>
+</head>
+<body>
+<canvas id="renderCanvas" touch-action="none" style="width: 100%; height: 100vh;"></canvas>
+
+<script>
+window.addEventListener('DOMContentLoaded', function()
+{
+    let canvas = document.getElementById('renderCanvas');
+    let engine = new BABYLON.Engine(canvas, true);
+
+    let createScene = function()
+    {
+        let scene = new BABYLON.Scene(engine);
+        let camera = new BABYLON.ArcRotateCamera("camera", Math.PI / 2, Math.PI / 3, 80, BABYLON.Vector3.Zero(), scene);
+        camera.attachControl(canvas, true);
+        let light = new BABYLON.HemisphericLight("light", new BABYLON.Vector3(1, 1, 0), scene);
+
+        let numLayers = 6;
+        let nodesPerLayer = 56;
+        let radius = 10;
+        let heightStep = 5;
+        let spheres = [];
+
+        for (let layer = 0; layer < numLayers; layer++)
+        {
+            for (let i = 0; i < nodesPerLayer; i++)
+            {
+                let angle = (2 * Math.PI / nodesPerLayer) * i;
+                let x = radius * Math.cos(angle);
+                let y = layer * heightStep;
+                let z = radius * Math.sin(angle);
+
+                let sphere = BABYLON.MeshBuilder.CreateSphere("s" + layer + "_" + i, {diameter: 0.8}, scene);
+                sphere.position = new BABYLON.Vector3(x, y, z);
+                sphere.material = new BABYLON.StandardMaterial("mat", scene);
+                sphere.material.diffuseColor = new BABYLON.Color3(1, 1, 1);
+                spheres.push(sphere);
+            }
+        }
+
+        // connect vertical (up-down)
+        for (let layer = 0; layer < numLayers - 1; layer++)
+        {
+            for (let i = 0; i < nodesPerLayer; i++)
+            {
+                let index1 = layer * nodesPerLayer + i;
+                let index2 = (layer + 1) * nodesPerLayer + i;
+                createLine(spheres[index1], spheres[index2], scene, BABYLON.Color3.Green());
+            }
+        }
+
+        // connect diagonal spiral
+        for (let layer = 0; layer < numLayers - 1; layer++)
+        {
+            for (let i = 0; i < nodesPerLayer; i++)
+            {
+                let index1 = layer * nodesPerLayer + i;
+                let index2 = (layer + 1) * nodesPerLayer + (i + 1) % nodesPerLayer;
+                createLine(spheres[index1], spheres[index2], scene, BABYLON.Color3.Purple());
+            }
+        }
+
+        // connect same layer rings
+        for (let layer = 0; layer < numLayers; layer++)
+        {
+            for (let i = 0; i < nodesPerLayer; i++)
+            {
+                let index1 = layer * nodesPerLayer + i;
+                let index2 = layer * nodesPerLayer + (i + 1) % nodesPerLayer;
+                createLine(spheres[index1], spheres[index2], scene, BABYLON.Color3.Yellow());
+            }
+        }
+
+        return scene;
+    };
+
+    function createLine(s1, s2, scene, color)
+    {
+        let points = [s1.position, s2.position];
+        let line = BABYLON.MeshBuilder.CreateLines("line", {points: points}, scene);
+        line.color = color;
+    }
+
+    let scene = createScene();
+    engine.runRenderLoop(function()
+    {
+        scene.render();
+    });
+
+    window.addEventListener("resize", function()
+    {
+        engine.resize();
+    });
+});
+</script>
+</body>
+</html>
