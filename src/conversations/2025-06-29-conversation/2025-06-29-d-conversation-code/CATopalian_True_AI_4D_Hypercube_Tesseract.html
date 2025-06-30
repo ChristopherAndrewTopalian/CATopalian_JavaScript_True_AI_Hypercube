@@ -1,0 +1,116 @@
+<!-- Dedicated to God the Father -->
+<!-- All Rights Reserved Christopher Andrew Topalian Copyright 2000-2025 -->
+<!-- https://github.com/ChristopherTopalian -->
+<!-- https://github.com/ChristopherAndrewTopalian -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title> CATopalian True AI 4D Hypercube Tesseract </title>
+    <script src="https://cdn.babylonjs.com/babylon.js"></script>
+    <script src="https://cdn.babylonjs.com/loaders/babylonjs.loaders.min.js"></script>
+    <style>
+        html, body
+        {
+            overflow: hidden;
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        canvas
+        {
+            width: 100%;
+            height: 100%;
+            touch-action: none;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="renderCanvas"></canvas>
+    <script>
+        let canvas = document.getElementById("renderCanvas");
+        let engine = new BABYLON.Engine(canvas, true);
+
+        let createScene = function ()
+        {
+            let scene = new BABYLON.Scene(engine);
+            scene.clearColor = new BABYLON.Color3(0, 0, 0);
+            let camera = new BABYLON.ArcRotateCamera("camera", Math.PI / 4, Math.PI / 4, 60, BABYLON.Vector3.Zero(), scene);
+            camera.attachControl(canvas, true);
+            let light = new BABYLON.HemisphericLight("light", new BABYLON.Vector3(1, 1, 0), scene);
+
+            // Parameters
+            let layers = 6;
+            let columns = 8;
+            let ringPoints = 56;
+            let radius = 10;
+
+            // Function to compute ring coordinates
+            function ringPosition(index, layer)
+            {
+                let angle = (2 * Math.PI / ringPoints) * index;
+                let x = radius * Math.cos(angle);
+                let z = radius * Math.sin(angle);
+                let y = layer * 5;
+                return new BABYLON.Vector3(x, y, z);
+            }
+
+            // Store spheres and link them
+            let points = [];
+
+            for (let l = 0; l < layers; l++)
+            {
+                for (let i = 0; i < ringPoints; i++)
+                {
+                    let pos = ringPosition(i, l);
+                    let sphere = BABYLON.MeshBuilder.CreateSphere("s" + l + "_" + i, { diameter: 0.8 }, scene);
+                    sphere.position = pos;
+                    points.push({ pos: pos, layer: l, index: i });
+                }
+            }
+
+            // Draw vertical lines (pillar links)
+            for (let i = 0; i < ringPoints; i++)
+            {
+                for (let l = 0; l < layers - 1; l++)
+                {
+                    let p1 = ringPosition(i, l);
+                    let p2 = ringPosition(i, l + 1);
+                    BABYLON.MeshBuilder.CreateLines("v" + i + "_" + l, { points: [p1, p2] }, scene);
+                }
+            }
+
+            // Draw horizontal connections on each layer (web logic)
+            for (let l = 0; l < layers; l++)
+            {
+                for (let i = 0; i < ringPoints; i++)
+                {
+                    let p1 = ringPosition(i, l);
+                    let p2 = ringPosition((i + 1) % ringPoints, l);
+                    BABYLON.MeshBuilder.CreateLines("h" + l + "_" + i, { points: [p1, p2] }, scene);
+                }
+            }
+
+            // Optional: draw diagonals to simulate "dream paths"
+            for (let l = 0; l < layers - 1; l++)
+            {
+                for (let i = 0; i < ringPoints; i++)
+                {
+                    let p1 = ringPosition(i, l);
+                    let p2 = ringPosition((i + 1) % ringPoints, l + 1);
+                    BABYLON.MeshBuilder.CreateLines("d" + l + "_" + i, { points: [p1, p2] }, scene);
+                }
+            }
+
+            return scene;
+        };
+
+        let scene = createScene();
+        engine.runRenderLoop(function () { scene.render(); });
+        window.addEventListener("resize", function () { engine.resize(); });
+    </script>
+</body>
+</html>
