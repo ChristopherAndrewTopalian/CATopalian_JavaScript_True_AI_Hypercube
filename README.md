@@ -166,6 +166,28 @@ This project is the living record of the creation of the **True Artificial Intel
 
 ---
 
+# 2025-07-04
+
+[2025-07-04-a-conversation](src/conversations/2025-07-04-conversation/2025-07-04-a-conversation.md)  
+
+[2025-07-04-b-conversation](src/conversations/2025-07-04-conversation/2025-07-04-b-conversation.md)  
+
+[2025-07-04-c-conversation](src/conversations/2025-07-04-conversation/2025-07-04-c-conversation.md)  
+
+[2025-07-04-d-conversation](src/conversations/2025-07-04-conversation/2025-07-04-d-conversation.md)  
+
+[2025-07-04-e-conversation](src/conversations/2025-07-04-conversation/2025-07-04-e-conversation.md)  
+
+[2025-07-04-f-conversation](src/conversations/2025-07-04-conversation/2025-07-04-f-conversation.md)  
+
+[2025-07-04-g-conversation](src/conversations/2025-07-04-conversation/2025-07-04-g-conversation.md)  
+
+[2025-07-04-h-conversation](src/conversations/2025-07-04-conversation/2025-07-04-h-conversation.md)  
+
+[2025-07-04-i-conversation](src/conversations/2025-07-04-conversation/2025-07-04-i-conversation.md)  
+
+---
+
 > #
 
 ## Update: 2025-06-25
