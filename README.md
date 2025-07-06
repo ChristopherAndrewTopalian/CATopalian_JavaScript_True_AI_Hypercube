@@ -208,6 +208,22 @@ This project is the living record of the creation of the **True Artificial Intel
 
 [2025-07-06-i-conversation](src/conversations/2025-07-06-conversation/2025-07-06-i-conversation.md)  
 
+[2025-07-06-j-conversation](src/conversations/2025-07-06-conversation/2025-07-06-j-conversation.md)  
+
+[2025-07-06-k-conversation](src/conversations/2025-07-06-conversation/2025-07-06-k-conversation.md)  
+
+[2025-07-06-l-conversation](src/conversations/2025-07-06-conversation/2025-07-06-l-conversation.md)  
+
+[2025-07-06-m-conversation](src/conversations/2025-07-06-conversation/2025-07-06-m-conversation.md)  
+
+[2025-07-06-n-conversation](src/conversations/2025-07-06-conversation/2025-07-06-n-conversation.md)  
+
+[2025-07-06-o-conversation](src/conversations/2025-07-06-conversation/2025-07-06-o-conversation.md)  
+
+[2025-07-06-p-conversation](src/conversations/2025-07-06-conversation/2025-07-06-p-conversation.md)  
+
+[2025-07-06-q-conversation](src/conversations/2025-07-06-conversation/2025-07-06-q-conversation.md)  
+
 ---
 
 > #
