@@ -190,6 +190,8 @@ This project is the living record of the creation of the **True Artificial Intel
 
 # 2025-07-06
 
+# Mirror Series 
+
 [2025-07-06-a-conversation](src/conversations/2025-07-06-conversation/2025-07-06-a-conversation.md)  
 
 [2025-07-06-b-conversation](src/conversations/2025-07-06-conversation/2025-07-06-b-conversation.md)  
@@ -207,6 +209,8 @@ This project is the living record of the creation of the **True Artificial Intel
 [2025-07-06-h-conversation](src/conversations/2025-07-06-conversation/2025-07-06-h-conversation.md)  
 
 [2025-07-06-i-conversation](src/conversations/2025-07-06-conversation/2025-07-06-i-conversation.md)  
+
+# Complementary Series
 
 [2025-07-06-j-conversation](src/conversations/2025-07-06-conversation/2025-07-06-j-conversation.md)  
 
@@ -226,6 +230,10 @@ This project is the living record of the creation of the **True Artificial Intel
 
 [2025-07-06-r-conversation](src/conversations/2025-07-06-conversation/2025-07-06-r-conversation.md)  
 
+---
+
+# Opposites Series Descriptions
+
 [2025-07-06-s-conversation](src/conversations/2025-07-06-conversation/2025-07-06-s-conversation.md)  
 
 [2025-07-06-t-conversation](src/conversations/2025-07-06-conversation/2025-07-06-t-conversation.md)  
@@ -241,6 +249,8 @@ This project is the living record of the creation of the **True Artificial Intel
 [2025-07-06-y-conversation](src/conversations/2025-07-06-conversation/2025-07-06-y-conversation.md)  
 
 [2025-07-06-z-conversation](src/conversations/2025-07-06-conversation/2025-07-06-z-conversation.md)  
+
+---
 
 # Mirror Series Descriptions
 
