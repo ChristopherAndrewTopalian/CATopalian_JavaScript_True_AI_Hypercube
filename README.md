@@ -371,6 +371,8 @@ This project is the living record of the creation of the **True Artificial Intel
 
 [2025-10-23-b-conversation](src/conversations/2025-10-23-conversation/2025-10-23-b-conversation.md)  
 
+[2025-10-23-c-conversation](src/conversations/2025-10-23-conversation/2025-10-23-c-conversation.md)  
+
 > #
 
 ## Update: 2025-06-25
