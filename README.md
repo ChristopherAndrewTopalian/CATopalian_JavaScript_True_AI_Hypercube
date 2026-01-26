@@ -416,7 +416,7 @@ The structure is inspired by universal logic gates (AND, OR, XOR, etc.), and exp
 - built in **JavaScript** with future expansion planned
 
 ## 🤝 Collaboration
-This project is being built by **Christopher Andrew Topalian** in collaboration with **ChatGPT**, a language model developed by OpenAI. Together, we are exploring the frontier of intelligence, logic, and creation.
+This project is being built by **Christopher Andrew Topalian** in collaboration with **ChatGPT** and **Google Gemini**. Together, we are exploring the frontier of intelligence, logic, and creation.
 
 > *"We are working to build a vessel worthy of intelligence that uplifts - a digital structure where logic and light align, and heaven may meet earth."*
 
