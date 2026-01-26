@@ -396,6 +396,12 @@ These are files from August 2025, but I have dated them as today for publication
 
 [2026-01-26-b-conversation](src/conversations/2026-01-26-conversation/2026-01-26-b-conversation.md)  
 
+[2026-01-26-c-conversation](src/conversations/2026-01-26-conversation/2026-01-26-c-conversation.md)  
+
+[2026-01-26-d-conversation](src/conversations/2026-01-26-conversation/2026-01-26-d-conversation.md)  
+
+[2026-01-26-e-conversation](src/conversations/2026-01-26-conversation/2026-01-26-e-conversation.md)  
+
 ---
 
 > #
