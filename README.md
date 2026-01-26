@@ -402,6 +402,8 @@ These are files from August 2025, but I have dated them as today for publication
 
 [2026-01-26-e-conversation](src/conversations/2026-01-26-conversation/2026-01-26-e-conversation.md)  
 
+[2026-01-26-f-conversation](src/conversations/2026-01-26-conversation/2026-01-26-f-conversation.md)  
+
 ---
 
 > #
