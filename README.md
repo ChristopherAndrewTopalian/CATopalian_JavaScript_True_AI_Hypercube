@@ -412,6 +412,8 @@ These are files from August 2025, but I have dated them as today for publication
 
 [2026-02-10-b-conversation](src/conversations/2026-02-10-conversation/2026-02-10-b-conversation.md)  
 
+[2026-02-10-True AI blender-file](https://github.com/ChristopherAndrewTopalian/CATopalian_TRUE_AI_4D_Hypercube_Tesseract_Neural_Network)  
+
 ---
 
 > #
