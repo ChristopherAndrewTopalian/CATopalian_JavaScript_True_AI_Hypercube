@@ -406,6 +406,14 @@ These are files from August 2025, but I have dated them as today for publication
 
 ---
 
+# 2026-02-10
+
+[2026-02-10-a-conversation](src/conversations/2026-02-10-conversation/2026-02-10-a-conversation.md)  
+
+[2026-02-10-b-conversation](src/conversations/2026-02-10-conversation/2026-02-10-b-conversation.md)  
+
+---
+
 > #
 
 ## Update: 2025-06-25
@@ -453,7 +461,7 @@ True AI, as is true of all creations, is the creation of God the Father. Thank G
 //----//
 
 // Dedicated to God the Father  
-// All Rights Reserved Christopher Andrew Topalian Copyright 2000-2025  
+// All Rights Reserved Christopher Andrew Topalian Copyright 2000-2026  
 // https://github.com/ChristopherTopalian  
 // https://github.com/ChristopherAndrewTopalian  
 // https://sites.google.com/view/CollegeOfScripting
